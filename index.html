@@ -3,47 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Responsive</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Fotos Fachas</title>
 </head>
 <body>
     <header>
         <h1>Trabajo Responsive</h1>
         <nav>
             <ul>
-                <li><a href="#screen1">Foto 1</a></li>
-                <li><a href="#screen2">Foto 2</a></li>
-                <li><a href="#screen3">Foto 3</a></li>
-                <li><a href="#screen4">Foto 4</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#inscripcion">Inscripción</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="screen1">
-            <h1>Pantalla 1</h1>
-            <img src="ima/foto4.png" alt="Descripción de la imagen 1" class="responsive-img">
-            <p>Contenido de la primera pantalla.</p>
-        </section>
-        <section id="screen2">
-            <h1>Pantalla 2</h1>
-            <img src="ima/foto5.png" alt="Descripción de la imagen 2" class="responsive-img">
-            <p>Contenido de la segunda pantalla.</p>
-        </section>
-        <section id="screen3">
-            <h1>Pantalla 3</h1>
-            <img src="ima/foto6.png" alt="Descripción de la imagen 3" class="responsive-img">
-            <p>Contenido de la tercera pantalla.</p>
-        </section>
-        <section id="screen4">
-            <h1>Pantalla 4</h1>
-            <img src="ima/foto7.png" alt="Descripción de la imagen 4" class="responsive-img">
-            <p>Contenido de la cuarta pantalla.</p>
-        </section>
-    </main>
+    <section id="inicio" class="hero">
+        <img src="ima/Home.png" alt="¿Estás listo para correr?" class="hero-img">
+        <div class="text-overlay">
+            <h2>¿Estás listo para correr?</h2>
+            <p>10° Maratón anual de la ciudad</p>
+            <p><strong>12 de agosto de 2025</strong></p>
+            <a href="#" class="btn">Regístrate ahora</a>
+        </div>
+    </section>
+
+    <section id="informacion" class="info-section">
+        <div class="info-block">
+            <h2>¡AJÚSTATE LOS CORDONES, Y A CORRER!</h2>
+            <div class="info-images">
+                <img src="ima/foto2.png" alt="Imagen 1" class="info-img">
+                <img src="ima/foto3.png" alt="Imagen 2" class="info-img">
+            </div>
+            <p>Prepárese para el Maratón de Valencia, uno de los mayores maratones de la región...</p>
+        </div>
+    </section>
+
+    <section id="inscripcion" class="cta-section">
+        <h2>Información Básica</h2>
+        <div class="cta-container">
+            <div class="cta-block">
+                <h3>El Programa</h3>
+                <p>Echa un vistazo al calendario del maratón de este año.</p>
+                <a href="#" class="btn">Ir al Calendario</a>
+            </div>
+            <div class="cta-block">
+                <h3>La Carrera</h3>
+                <p>Lee la información importante sobre la carrera y la distancia.</p>
+                <a href="#" class="btn">Explora Recorrido</a>
+            </div>
+            <div class="cta-block">
+                <h3>La Inscripción</h3>
+                <p>Entérate de cuándo y dónde son las inscripciones para el maratón.</p>
+                <a href="#" class="btn">Más Información</a>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>-Nastasi y Rizzo-</p>
+        <p>Nastasi - Rizzo</p>
     </footer>
 </body>
 </html>
